@@ -3,12 +3,16 @@ import { createGlobalStyle } from 'styled-components';
 import reset from 'styled-reset';
 
 const GlobalStyle = createGlobalStyle`
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
   ${reset}
 
   body {
     background: ${({ theme }) => theme.background};
     color: ${({ theme }) => theme.standard};
     transition: 0.25s ease;
+    font-family: 'Noto Sans', 'Noto Sans KR', sans-serif;
+    font-optical-sizing: auto;
   }
   a {
   color: inherit;
