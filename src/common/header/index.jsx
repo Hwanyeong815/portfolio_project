@@ -43,6 +43,7 @@ const Header = () => {
                     <li onClick={() => handleScroll('about')}>&lt;About/&gt;</li>
                 </ul>
             </nav>
+            <img src="/icons/moon.svg" alt="" />
         </HeaderStyle>
     );
 };

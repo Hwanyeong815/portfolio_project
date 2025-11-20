@@ -5,8 +5,14 @@ const ThemeToggle = ({ isDark, toggleTheme }) => {
     return (
         <ToggleStyle>
             <button type="button" onClick={toggleTheme} className='bg-sB shadow-sB'>
-                {isDark ? <img src="icons/sun.svg" alt="" /> : <img src="icons/moon.svg" alt="" />}
-                            </button>
+               {isDark ? (
+    <img src="/icons/sun.svg" alt="Light mode" />
+) : (
+    <img src="/icons/moon.svg" alt="Dark mode" />
+)}
+
+
+            </button>
         </ToggleStyle>
     );
 };

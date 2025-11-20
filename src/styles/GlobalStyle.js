@@ -18,11 +18,7 @@ const GlobalStyle = createGlobalStyle`
   color: inherit;
 }
 
-  /* =============================
-     ⚡ SHORT COLOR UTILITY CLASSES
-     ============================= */
-
-  /* TEXT COLOR */
+   /* TEXT COLOR */
   .text-acc  { color: ${({ theme }) => theme.accent}; }
   .text-bg   { color: ${({ theme }) => theme.background}; }
   .text-stan { color: ${({ theme }) => theme.standard}; }
