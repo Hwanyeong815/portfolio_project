@@ -19,6 +19,7 @@ export const SkillsStyle = styled.section`
         display: flex;
         gap: 0.625rem;
         flex-wrap: wrap;
+        user-select: none;
         .skill-icon-box {
             width: 10rem;
             height: 10rem;

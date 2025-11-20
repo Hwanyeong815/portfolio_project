@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 export const AboutStyle = styled.section`
+user-select: none;
     .sub-title {
         margin-top: 3rem;
         font-size: 2.25rem;

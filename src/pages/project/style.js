@@ -32,6 +32,7 @@ export const ProjectStyle = styled.section`
             white-space: pre-line;
             max-width: 16.4rem;
             li {
+                user-select: none;
                 display: flex;
                 flex-direction: column;
                 gap: 0.62rem;
