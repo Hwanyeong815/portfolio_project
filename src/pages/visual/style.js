@@ -4,7 +4,14 @@ export const VisualStyle = styled.section`
     width: 100%;
     height: 20rem;
     min-width: 100rem;
-
+    user-select: none;
+.text-effect-size{
+    transition: 0.2s ease;
+    &:hover{
+        
+        font-weight: 400;
+    }
+}
     .visual-title {
         margin-top: 19rem;
         display: flex;

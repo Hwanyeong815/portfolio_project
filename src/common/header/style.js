@@ -8,6 +8,7 @@ export const HeaderStyle = styled.header`
     position: sticky;
     top: 0;
     z-index: 1000;
+    border-bottom: 1px solid ${({ theme }) => theme.subBlack};
 
     /* 스크롤 시 50% 투명 / 기본(최상단)에서는 완전 불투명 */
     background-color: ${({ theme, isScrolled }) =>
