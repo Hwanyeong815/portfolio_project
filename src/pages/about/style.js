@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const AboutStyle = styled.section`
 user-select: none;
-    .sub-title {
+padding: 7.875rem;  .sub-title {
         margin-top: 3rem;
         font-size: 2.25rem;
         font-weight: 300;

@@ -3,6 +3,7 @@ import styled from 'styled-components';
 export const ProjectStyle = styled.section`
     height: max-content;
     padding-bottom: 10rem;
+    padding-top: 7.875rem;
     .button-wrap {
         margin-top: 6.27rem;
 

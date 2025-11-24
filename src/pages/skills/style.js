@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 export const SkillsStyle = styled.section`
+padding-top: 7.875rem;
     height: 67.5rem;
     display: flex;
     flex-direction: column;

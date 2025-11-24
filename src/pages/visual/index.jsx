@@ -10,10 +10,10 @@ const Visual = () => {
                     안녕하세요, <span className="text-acc">강환영</span>입니다.
                 </h2>
                 <strong className="text-stan">
-                    Hello, I`m
-                    <span className="text-acc">Kang Hwanyeong</span>.
+                    Hello, I`m&nbsp;
+                    <span className="text-acc">Strong Welcome</span>.
                 </strong>
-            </div>
+            </div>  
         </VisualStyle>
     );
 };
